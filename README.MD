@@ -4,6 +4,12 @@
 
 ## Installation
 
+### Install the npm package
+```bash
+cd path/to/your-folder
+npm i @gutengeek/components
+```
+
 ### Webpack configuration
 ```js
 const defaultConfig = require("@wordpress/scripts/config/webpack.config");
@@ -156,12 +162,6 @@ module.exports = {
         'react-dom': 'ReactDom'
     }
 };
-```
-
-### Install the npm package
-```bash
-cd path/to/your-folder
-npm i @gutengeek/components
 ```
 
 ## Usage
