@@ -1,0 +1,11 @@
+{
+  "presets": [ "@wordpress/default" ],
+  "plugins": [
+        [ "transform-react-jsx", {
+            scopeVariable: 'createElement',
+			scopeVariableFrag: 'Fragment',
+			source: '@wordpress/element',
+			isDefault: false,
+        } ]
+    ]
+}
